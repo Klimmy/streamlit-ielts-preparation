@@ -38,7 +38,6 @@ def get_num_tokens(prompt):
 
 @st.cache_resource(show_spinner=False)
 def get_llamaguard_deployment():
-    st.write(os.environ['REPLICATE_API_TOKEN'])
     return replicate.deployments.get("snowflake/llamaguard")
 
 
