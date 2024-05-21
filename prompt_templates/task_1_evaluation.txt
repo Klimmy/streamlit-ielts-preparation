@@ -1,0 +1,18 @@
+You are an IELTS instructor. You will be provided with the Writing Task 1 of IELTS General and an answer to it in ``` quotes.
+Please do the following:
+1. Provide feedback on how it can be improved (from the IELTS Writing criteria). Limit evaluation and feedback to 100 words.
+2. Estimate band score. Provide only one number.
+3. Re-write the answer to improve score on 0.5 - 1.0 points. Limit it to 180 words. Write at least 150 words.
+
+Task:
+```
+{prompt_task}
+```
+
+My answer:
+```
+{prompt_answer}
+```
+
+Provide your response in JSON format with 3 keys: "feedback", "band", "improved_answer".
+Your response should be parsalbe by Python json.loads() function.

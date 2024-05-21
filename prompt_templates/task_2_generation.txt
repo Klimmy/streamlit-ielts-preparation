@@ -1,0 +1,2 @@
+Generate IELTS General Writing Task 2. Do not generate the answer to task 2! Generate only the task itself.
+Limit your response to 50 words.
